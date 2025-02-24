@@ -46,7 +46,9 @@
                 <!--begin::Main-->
                 <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
                     <!--begin::Content wrapper-->
-                    @yield('content')
+                    <div class="d-flex flex-column flex-column-fluid">
+                        @yield('content')
+                    </div>
                     <!--end::Content wrapper-->
                     <!--begin::Footer-->
                     @include('layouts.partials.footer')

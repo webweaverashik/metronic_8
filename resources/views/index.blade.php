@@ -1,14 +1,13 @@
 @push('stylesheets')
-    <!--begin::Vendor Stylesheets(used for this page only)-->
     <link href="{{ asset('assets/plugins/custom/fullcalendar/fullcalendar.bundle.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet" type="text/css" />
-    <!--end::Vendor Stylesheets-->
 @endpush
 
-@extends('layouts.master')
+@extends('layouts.app')
+
+@section('title', 'ড্যাশবোর্ড')
 
 @section('content')
-<div class="d-flex flex-column flex-column-fluid">
     <!--begin::Toolbar-->
     <div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
         <!--begin::Toolbar container-->
@@ -3155,7 +3154,6 @@
         <!--end::Content container-->
     </div>
     <!--end::Content-->
-</div>
 @endsection
 
 @section('drawers')
