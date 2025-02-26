@@ -8098,5 +8098,8 @@
     <script src="{{ asset('assets/js/custom/utilities/modals/create-app.js') }}"></script>
     <script src="{{ asset('assets/js/custom/utilities/modals/new-target.js') }}"></script>
     <script src="{{ asset('assets/js/custom/utilities/modals/users-search.js') }}"></script>
+    <script>
+        document.getElementById("dashboard_id").className += " active";
+    </script>
     <!--end::Custom Javascript-->
 @endpush

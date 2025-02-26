@@ -2,8 +2,8 @@
     <!--begin::Logo-->
     <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
         <!--begin::Logo image-->
-        <a href="index.html">
-            <img alt="Logo" src="assets/media/logos/default-dark.svg" class="h-25px app-sidebar-logo-default" />
+        <a href="{{ url('/') }}">
+            <img alt="Logo" src="{{ asset('assets/img/UC_Logo_white_text.png') }}" class="h-50px app-sidebar-logo-default" />
             <img alt="Logo" src="assets/media/logos/default-small.svg" class="h-20px app-sidebar-logo-minimize" />
         </a>
         <!--end::Logo image-->
@@ -47,7 +47,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link active" href="index.html">
+                                <a class="menu-link" href="{{ route('dashboard') }}" id="dashboard_id">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -59,7 +59,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="dashboards/ecommerce.html">
+                                <a class="menu-link" href="{{ route('ecommerce') }}" id="ecommerce_id">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>

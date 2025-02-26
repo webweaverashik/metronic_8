@@ -13,7 +13,7 @@
     <!--begin::Toolbar-->
     <div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
         <!--begin::Toolbar container-->
-        <div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack">
+        <div id="kt_app_toolbar_container" class="app-container container-fluid d-flex flex-stack">
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
                 <!--begin::Title-->
@@ -52,10 +52,11 @@
         <!--end::Toolbar container-->
     </div>
     <!--end::Toolbar-->
+    
     <!--begin::Content-->
     <div id="kt_app_content" class="app-content flex-column-fluid">
         <!--begin::Content container-->
-        <div id="kt_app_content_container" class="app-container container-xxl">
+        <div id="kt_app_content_container" class="app-container container-fluid">
             <!--begin::Row-->
             <div class="row gx-5 gx-xl-10 mb-xl-10">
                 <!--begin::Col-->
@@ -2444,5 +2445,8 @@
 <script src="{{ asset('assets/js/custom/apps/chat/chat.js') }}"></script>
 <script src="{{ asset('assets/js/custom/utilities/modals/upgrade-plan.js') }}"></script>
 <script src="{{ asset('assets/js/custom/utilities/modals/users-search.js') }}"></script>
+<script>
+    document.getElementById("ecommerce_id").className += " active";
+</script>
 <!--end::Custom Javascript-->
 @endpush

@@ -10,7 +10,7 @@
     <meta property="og:url" content="https://ashikur-rahman.com" />
     <meta property="og:site_name" content="UCMS by Ashikur Rahman" />
     <link rel="canonical" href="https://ashikur-rahman.com" />
-    <link rel="shortcut icon" href="{{ asset('assets/media/logos/favicon.ico') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets/img/ucms-favicon-64.ico') }}" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
     <!--end::Fonts-->
