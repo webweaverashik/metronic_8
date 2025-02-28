@@ -17,4 +17,6 @@
         </div>
     </div>
 </body>
+<!-- Include the app's JavaScript file (optional if using Laravel Mix) -->
+</body>
 </html>
