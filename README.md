@@ -1,1 +1,1 @@
-# Unique Coaching Management System (UCMS)
+# Metronic Admin template Laravel version installation
